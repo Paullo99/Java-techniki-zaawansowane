@@ -1,7 +1,7 @@
 # Programowanie w języku Java - techniki zaawansowane
 
 ## Lab01
-Napisana została aplikacja, która sprawdza katalogi pod względem wystąpienia zmian w znajdujących się tam plikach. 
+##### Napisana została aplikacja, która sprawdza katalogi pod względem wystąpienia zmian w znajdujących się tam plikach. 
 
 Szczegółowy opis implementacji:
 - wyliczanie skrótu MD5 dla każdego pliku,
@@ -14,3 +14,17 @@ Szczegółowy opis implementacji:
 Interfejs graficzny aplikacji:
 
 <img src="https://user-images.githubusercontent.com/49610728/115015292-b6509100-9eb3-11eb-8a5a-925e4484da3b.png" width="75%">
+
+
+# Lab02
+##### Napisana została aplikacja, która umożliwia podglądanie zawartości plików podczas przeglądania struktury katalogów.
+
+Szczegółowy opis implementacji:
+- wykorzystywanie słabych referencji w celu uniknięcia wielokrotnego ładowania zawartości tego samego pliku, 
+- informacja o tym, czy zawartość załadowana została ponownie czy pobrana z pamięci podręcznej, 
+- interfejs graficzny w Swingu,
+- aplikacja napisana z użyciem modułów.
+
+Ponadto przeprowadzono testy dla różnych parametrów wirtualnej maszyny (plik Sprawozdanie.md).
+
+Interfejs graficzny aplikacji:

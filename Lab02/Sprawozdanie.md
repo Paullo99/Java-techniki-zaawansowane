@@ -1,0 +1,4 @@
+##### Wnioski do lab02
+* Używając komendy ```-Xms512m``` pliki załadowane chociaż raz do pamięci, za każdym następnym razem były ładowane przy użyciu WeakReference;
+* Używając komend ```-XX:+ShrinkHeapInSteps``` oraz ```-XX:-ShrinkHeapInSteps``` miałem wrażenie, że przy ponownej próbie wyświetlania zawartości plików (przemieszczając się między dwoma katalogami) często zdarzało się, że do danego pliku nie było już słabej referencji;
+* Wydaje mi się, że zastosowane komendy ```-XX:+UseSerialGC```, ```-XX:+UseParallelGC``` oraz ```-XX:+UseG1GC``` nie dawały bardzo rozróżnialnych efektów. Jeżeli dany plik przez dłuższy okres czasu nie był wyświetlany to trzeba było go ponownie załadować do pamięci.
