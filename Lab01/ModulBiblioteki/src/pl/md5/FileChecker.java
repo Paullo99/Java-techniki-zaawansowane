@@ -26,7 +26,6 @@ public class FileChecker {
 		try {
 			snapshotHashMap = generateMd5HashMap("D:/test");
 			writeToFile(snapshotHashMap, "test");
-			//snapshotHashMap = readFromFile("test.txt");
 		} catch (IOException e) {
 			System.out.println("err");
 		}
@@ -35,8 +34,8 @@ public class FileChecker {
 	}
 	
 	/*
-	 * Tworzy skrót MD5 dla ka¿dego pliku dla danej œcie¿ki bezwzglêdnej do katalogu
-	 * Zwraca hashmapê: klucz = nazwa pliku, wartoœæ = skrót md5
+	 * Tworzy skrï¿½t MD5 dla kaï¿½dego pliku dla danej ï¿½cieï¿½ki bezwzglï¿½dnej do katalogu
+	 * Zwraca hashmapï¿½: klucz = nazwa pliku, wartoï¿½ï¿½ = skrï¿½t md5
 	 */
 	public static HashMap<String, String> generateMd5HashMap(String absoluteDirectoryPath) throws NoSuchAlgorithmException, IOException{
 		
@@ -57,7 +56,7 @@ public class FileChecker {
 	}
 
 	/*
-	 * Zwraca zbiór wszystkich plików (a dok³adniej ich nazwy) znajduj¹cych siê w danym katalogu
+	 * Zwraca zbiï¿½r wszystkich plikï¿½w (a dokï¿½adniej ich nazwy) znajdujï¿½cych siï¿½ w danym katalogu
 	 */
 	public static Set<String> createSetOfFiles(String dir) throws IOException {
 	    Set<String> fileNameSet=Files.list(Paths.get(dir))
@@ -70,14 +69,14 @@ public class FileChecker {
 	}
 	
 	/*
-	 * Zwraca skrót MD5 w postaci heksadecymalnej
+	 * Zwraca skrï¿½t MD5 w postaci heksadecymalnej
 	 */
 	public static String convertByteToHex(byte[] digest) {
 		
 		StringBuilder sBuilder = new StringBuilder();
 
 		for (int i = 0; i < digest.length; i++) {
-			//operacja logicznego ANDa w celu otrzymania dwóch liczb heksadecymalnych z 1 bajtu
+			//operacja logicznego ANDa w celu otrzymania dwï¿½ch liczb heksadecymalnych z 1 bajtu
 			String hexString = Integer.toHexString(0xFF & digest[i]);
 
 			sBuilder.append(hexString);
@@ -87,16 +86,16 @@ public class FileChecker {
 	}
 	
 	/*
-	 * Zapisuje hashmapê zawieraj¹c¹ nazwê pliku+rozszerzenie (klucz) oraz md5 (wartoœæ) do pliku
+	 * Zapisuje hashmapï¿½ zawierajï¿½cï¿½ nazwï¿½ pliku+rozszerzenie (klucz) oraz md5 (wartoï¿½ï¿½) do pliku
 	 * Nazwa pliku to nazwa katalogu z rozszerzeniem .txt
 	 */
 	public static void writeToFile(HashMap<String, String> map, String directoryName) throws IOException {
 		
 		BufferedWriter bw = new BufferedWriter(new FileWriter(directoryName + ".txt"));
 		
-		//entry zawiera pary klucz-wartoœæ
+		//entry zawiera pary klucz-wartoï¿½ï¿½
 		for(Map.Entry<String, String> entry : map.entrySet()){
-			//klucz i wartoœæ rozdzielone s¹ znakiem '='
+			//klucz i wartoï¿½ï¿½ rozdzielone sï¿½ znakiem '='
 			bw.write(entry.getKey() + "=" + entry.getValue());
 			bw.newLine();
 		}
@@ -105,7 +104,7 @@ public class FileChecker {
 	}
 
 	/*
-	 * Odczytuje zapisan¹ w pliku .txt hashmapê dla danego katalogu na podstawie jego nazwy
+	 * Odczytuje zapisanï¿½ w pliku .txt hashmapï¿½ dla danego katalogu na podstawie jego nazwy
 	 */
 	public static HashMap<String, String> readFromFile(String directoryName) throws IOException {
 		
@@ -123,9 +122,9 @@ public class FileChecker {
 	}
 
 	/*
-	 * Porównuje 2 hashmapy
-	 * Zwraca hashmapê: klucz - nazwa pliku, wartoœæ - true/false
-	 * true - jeœli by³a modyfikacja, false - brak modyfikacji
+	 * Porï¿½wnuje 2 hashmapy
+	 * Zwraca hashmapï¿½: klucz - nazwa pliku, wartoï¿½ï¿½ - true/false
+	 * true - jeï¿½li byï¿½a modyfikacja, false - brak modyfikacji
 	 */
 	public static HashMap<String, Boolean> compare(HashMap<String, String> savedMd5HashMap, HashMap<String, String> currentMd5HashMap) {
 		HashMap<String, Boolean> wasFileChangedHashMap = new HashMap<>(); 
