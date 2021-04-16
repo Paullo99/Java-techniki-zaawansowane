@@ -1,0 +1,8 @@
+Dodany.txt=54a58c2d5710f2ee47f33ef4948899
+raport1.odt=249f14ca29daa9ead2205c4961eeb42
+plik_200226104929.rtf=7934b6e86ed4c9ee64573be65d192a9
+.txt=f62391f99278441e7fcb665b27788e79
+Sprawozdanie_248862_lab_4.pdf=af4af1181be77c43f7caa5cdb6805a94
+Pol and Rock 2019.docx=15126bf0d1da1b79723af0b2d814eb5
+Sprawozdanie.docx=6a1590419b4c1766ae7516b54f7d8cb
+Link do zdalnych zajêæ.txt=fe9cc2f64c3bc1478c16f8d76f53
