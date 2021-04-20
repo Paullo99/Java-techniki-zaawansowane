@@ -31,3 +31,17 @@ Interfejs graficzny aplikacji:
 
 <img src="https://user-images.githubusercontent.com/49610728/115020017-40035d00-9eba-11eb-9eea-cc17038eaba1.png" width="85%">
 
+
+# Lab03
+#### Napisana została aplikacja, która konsumuje dane z serwisu oferującego publiczne restowe API.
+Szczegółowy opis implementacji:
+- aplikacja oferuje interfejs graficzny i posiada dwie wersje językowe: PL oraz EN,
+- do obsługi języków wykorzystano Bundle oraz ChoiceFormat,
+- użytkownik ma możliwość parametryzowania pytania, które jest wysyłane do publicznego restowego API.
+
+Interfejs graficzny aplikacji (wersja PL):
+
+Interfejs graficzny aplikacji (wersja EN):
+
+
+
