@@ -18,7 +18,8 @@ public class DataGetter {
 	private static void createHeaders() {
 
 		headers = new HttpHeaders();
-		headers.add("x-rapidapi-key", "e942b4dc48mshc2e3a9b1f3c1baep14ddcajsn4a742087b1e7");
+		//key
+		headers.add("x-rapidapi-key", "1234xyz");
 		headers.add("x-rapidapi-host", "wft-geo-db.p.rapidapi.com");
 		headers.setContentType(MediaType.APPLICATION_JSON);
 		headers.setAccept(Collections.singletonList(MediaType.APPLICATION_JSON));
