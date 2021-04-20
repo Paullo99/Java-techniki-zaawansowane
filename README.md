@@ -39,9 +39,6 @@ Szczegółowy opis implementacji:
 - do obsługi języków wykorzystano Bundle oraz ChoiceFormat,
 - użytkownik ma możliwość parametryzowania pytania, które jest wysyłane do publicznego restowego API.
 
-Interfejs graficzny aplikacji (wersja PL):
+Interfejsy graficzne aplikacji (wersje PL/EN):
 
-Interfejs graficzny aplikacji (wersja EN):
-
-
-
+<img src="https://user-images.githubusercontent.com/49610728/115467103-446ca480-a231-11eb-9277-e0bdbec34d83.png" width="80%">
