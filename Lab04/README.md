@@ -8,5 +8,5 @@ Szczegółowy opis implementacji:
 - w celu możliwości monitorowania bieżącego statusu przetwarzania zaimplementowano wątki powodujące opóźnienia,
 - klasy po załadowaniu na listę i pobraniu informacji z getInfo() są wyładowywane, ponadto po wykonaniu każdego taska również następuje ich wyładowanie.
 
-    Propozycja oceny: 5.0
-    Ocena TK: ...
+Interfejs graficzny aplikacji:
+<img src="https://user-images.githubusercontent.com/49610728/116605470-bdee4c00-a92f-11eb-92ff-10b84fb70218.png" width="85%">
