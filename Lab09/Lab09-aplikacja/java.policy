@@ -1,0 +1,13 @@
+keystore "file:/D:/Java/jdk-11.0.10/bin/pmacionczykkeys.jks", "JKS", "SUN";
+keystorePasswordURL "file:D:/keystore.pass";
+
+grant signedBy "pmacionczyk", codeBase "file:/D:/Studia Paulo/Semestr_6/Programowanie w Javie/Laby/lab09/biblioteka/releases/sbiblioteka.jar"{
+   permission java.net.SocketPermission "*:100-", "connect, resolve, accept, listen"; 
+   permission java.security.AllPermission;
+};
+
+grant codeBase "file:/D:/Studia Paulo/Semestr_6/Programowanie w Javie/Laby - Eclipse Workspace/Lab09-aplikacja/bin/-"{
+   permission java.net.SocketPermission "*:100-", "connect, resolve, accept, listen"; 
+   permission java.security.AllPermission;
+
+};
