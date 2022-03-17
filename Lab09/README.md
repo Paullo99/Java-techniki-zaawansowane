@@ -8,4 +8,5 @@ Szczegółowy opis implementacji:
 - obsługa menadżera bezpieczeństwa,
 - sama aplikacja również została wygenerowana do jara i podpisana cyfrowo.
 
-Interfejs graficzny aplikacji:
+Interfejs graficzny aplikacji: <br>
+![lab09_1](https://user-images.githubusercontent.com/49610728/158796217-7180bec4-eb87-47f9-8bb7-a0990d592c16.png)
