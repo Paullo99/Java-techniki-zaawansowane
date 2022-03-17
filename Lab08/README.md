@@ -8,3 +8,4 @@ Szczegółowy opis implementacji:
 - pobranie informacji o naliczonych należnościach z zadanego okresu dla danego klienta.
 
 Opis endpointów z wykorzystaniem WSDL:
+![lab08_1](https://user-images.githubusercontent.com/49610728/158793722-269202c0-49b6-4708-ad0a-7724351a2afb.png)
