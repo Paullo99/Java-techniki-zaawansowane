@@ -1,0 +1,12 @@
+<miejscowosc>, <data>
+
+<dla>, Twoje imię w kalendarzu,
+To jest Twój szczęśliwy dzień,
+Poczta kwiatów w korytarzu,
+Już za chwilę spotka Cię!
+Życzeń pęki weź do serca,
+I uśmiechaj często się...
+Smutków niech Ci nikt nie wkręca,
+Dziś są imieniny Twe!
+
+<od>.

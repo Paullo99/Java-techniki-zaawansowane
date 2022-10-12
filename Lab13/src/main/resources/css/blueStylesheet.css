@@ -1,0 +1,81 @@
+.pane {
+    -fx-background-color: #083374;
+    -fx-text-fill: #c2e7ff;
+}
+
+.root {
+    -fx-background-color: #083374;
+    -fx-text-fill: #c2e7ff;
+}
+.label {
+    -fx-text-fill: #c2e7ff;
+    -fx-background-color: #083374;
+}
+
+
+.text-field {
+    -fx-background-color: #2c459b;
+    -fx-text-fill:  #c2e7ff;
+}
+
+.text-area {
+    -fx-background-color: #2c459b;
+    -fx-border-color:#2c459b;
+    -fx-text-fill:  #c2e7ff;
+}
+
+.text-area .content {
+    -fx-background-color: #2c459b;
+    -fx-text-fill:  #c2e7ff;
+}
+
+.button {
+    -fx-background-color: #2c459b    ;
+    -fx-text-fill:  #c2e7ff;
+}
+
+.button:hover {
+    -fx-background-color: #c2e7ff    ;
+    -fx-text-fill:  #083374;
+}
+
+.list-view .list-cell, .list-view .scroll-bar {
+    -fx-background-color: #2c459b;
+    -fx-text-fill:   #c2e7ff;
+}
+
+.list-view {
+    -fx-background-color: #2c459b;
+    -fx-border-color: #2c459b;
+    -fx-text-fill:  #c2e7ff;
+}
+
+.list-view .list-cell:filled:selected:focused, .list-view .list-cell:filled:selected {
+    -fx-background-color: #c2e7ff;
+    -fx-text-fill: #083374;
+}
+
+.list-view .list-cell:even {
+    -fx-background-color: #2c459b;
+}
+
+.list-view .list-cell:filled:hover {
+    -fx-background-color: #c2e7ff;
+    -fx-text-fill: #083374;
+}
+
+.choice-box, .choice-box .label {
+    -fx-background-color: #c2e7ff;
+    -fx-text-fill: #c2e7ff;
+}
+
+.combo-box, .combo-box .label
+{
+    -fx-background-color: #2c459b;
+    -fx-text-fill:  #c2e7ff;
+}
+
+.combo-box .list-cell 
+{
+    -fx-text-fill: #c2e7ff;
+}
