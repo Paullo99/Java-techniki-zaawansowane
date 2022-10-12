@@ -10,6 +10,9 @@ Aplikacja umożliwia:
 
 Interfejs graficzny aplikacji (domyślny):
 
+![lab13_1](https://user-images.githubusercontent.com/49610728/195390632-f813bd46-b198-4bc5-bba8-3684aa725cdf.png)
 
+<br/> <br/>
 Interfejs graficzny aplikacji (ciemny):
 
+![lab13_2](https://user-images.githubusercontent.com/49610728/195390630-0174bfb3-ed48-4ab3-9de7-15b571350283.png)
